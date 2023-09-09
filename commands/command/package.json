@@ -1,0 +1,30 @@
+{
+  "name": "@notbad-cli/command",
+  "version": "1.0.0",
+  "description": "command",
+  "keywords": [
+    "command"
+  ],
+  "author": "liujiabao <13739251750@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/command.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@notbad-cli/error": "^1.0.0",
+    "colors": "^1.4.0",
+    "semver": "^7.3.4"
+  }
+}

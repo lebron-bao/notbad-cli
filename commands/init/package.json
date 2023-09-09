@@ -1,0 +1,41 @@
+{
+  "name": "@notbad-cli/init",
+  "version": "1.7.0",
+  "description": "init",
+  "keywords": [
+    "init"
+  ],
+  "author": "liujiabao <13739251750@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/init.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@notbad-cli/command": "^1.0.0",
+    "@notbad-cli/log": "^1.0.0",
+    "@notbad-cli/request": "^1.0.0",
+    "chalk": "4.0.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.9",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3",
+    "moment": "^2.29.4",
+    "npmlog": "^7.0.1",
+    "octokit": "^3.1.0",
+    "ora": "4.1.0",
+    "semver": "7.3.4"
+  }
+}

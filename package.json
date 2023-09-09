@@ -1,0 +1,10 @@
+{
+  "name": "root",
+  "private": true,
+  "bin": {
+    "notbad-cli": "./core/notbad-cli/cli.js"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
